@@ -8,23 +8,30 @@ namespace Iskola
     {
         //protected enum Nemek  { nő, férfi};
 
-        string nev; 
-        int kor;
-        string nem;
+        protected string nev; 
+        protected int kor;
+        protected string nem;
 
-        public Ember(string nev = "Anonim Jancsi", int kor = 30, string nem = "férfi")
+
+        public Ember()
+        {
+            nev = "Anonim Jancsi";
+            kor = 30;
+            nem = "férfi";
+        }
+        public Ember(string nev, int kor, string nem)
         {
             this.nev = nev;
             this.kor = kor;
             this.nem = nem;
         }
 
-        public void Bemutatkozik()
+        public virtual void Bemutatkozik()
         {
             Console.WriteLine($"Szia, {nev} vagyok, {kor} éves {nem}." );
         }
 
-        public void getCel()
+        public virtual void getCel()
         {
             Console.WriteLine("Élj a mának!");
         }
