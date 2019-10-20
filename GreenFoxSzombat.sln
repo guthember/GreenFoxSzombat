@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista", "GreenFoxSzombat\Lista.csproj", "{AACE14E5-2D4D-44EC-9CD6-BA001E1609FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lista", "GreenFoxSzombat\Lista.csproj", "{AACE14E5-2D4D-44EC-9CD6-BA001E1609FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleClass", "ExampleClass\ExampleClass.csproj", "{B7681523-5109-4587-B918-EE7DBB913B7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleClass", "ExampleClass\ExampleClass.csproj", "{B7681523-5109-4587-B918-EE7DBB913B7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NineExample", "NineExample\NineExample.csproj", "{24FC7CC5-2E7D-4573-9CF4-F5BF122E4A8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NineExample", "NineExample\NineExample.csproj", "{24FC7CC5-2E7D-4573-9CF4-F5BF122E4A8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenExample", "TenExample\TenExample.csproj", "{681874E1-B0C5-483F-B4C6-436A651F3FC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TenExample", "TenExample\TenExample.csproj", "{681874E1-B0C5-483F-B4C6-436A651F3FC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenExample", "ElevenExample\ElevenExample.csproj", "{86B06D30-6468-47E2-BA3B-BD5400626F6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElevenExample", "ElevenExample\ElevenExample.csproj", "{86B06D30-6468-47E2-BA3B-BD5400626F6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskola", "Iskola\Iskola.csproj", "{2D0BC24D-6CA2-4DBD-86DB-BC592BDC43AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iskola", "Iskola\Iskola.csproj", "{2D0BC24D-6CA2-4DBD-86DB-BC592BDC43AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novenykert", "Novenykert\Novenykert.csproj", "{FE6AC33C-320D-4759-BDDE-C889C534D99A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{2D0BC24D-6CA2-4DBD-86DB-BC592BDC43AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D0BC24D-6CA2-4DBD-86DB-BC592BDC43AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D0BC24D-6CA2-4DBD-86DB-BC592BDC43AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6AC33C-320D-4759-BDDE-C889C534D99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6AC33C-320D-4759-BDDE-C889C534D99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6AC33C-320D-4759-BDDE-C889C534D99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6AC33C-320D-4759-BDDE-C889C534D99A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
